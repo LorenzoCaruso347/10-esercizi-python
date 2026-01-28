@@ -1,0 +1,17 @@
+def somma_lunghezze(str1, str2):
+    # Calcola la lunghezza della prima stringa
+    lunghezza1 = len(str1)
+    
+    # Calcola la lunghezza della seconda stringa
+    lunghezza2 = len(str2)
+    
+    # Restituisce la somma
+    return lunghezza1 + lunghezza2
+
+# Versione compatta (quella che useresti normalmente)
+def somma_lunghezze_concisa(str1, str2):
+    return len(str1) + len(str2)
+
+# Esempi di test
+print(somma_lunghezze("ciao", "mondo"))  # Output: 9 (4 + 5)
+print(somma_lunghezze("Python", ""))     # Output: 6 (6 + 0)
