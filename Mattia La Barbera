@@ -1,0 +1,5 @@
+def join_strings(s1, s2):
+    return s1 + s2
+    
+risultato = join_strings("Gemi", "ni")
+print(risultato)  
