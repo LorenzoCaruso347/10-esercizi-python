@@ -1,0 +1,12 @@
+def solve_linear(m, x, q):
+   """
+   Calcola il valore di y in un'equazione lineare y = mx + q.
+   """
+   y = m * x + q
+   return y
+# Esempio di utilizzo:
+m_val = 2
+x_val = 5
+q_val = 10
+risultato = solve_linear(m_val, x_val, q_val)
+print(f"Per m={m_val}, x={x_val} e q={q_val}, il valore di y è: {risultato}")
