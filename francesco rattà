@@ -1,0 +1,21 @@
+def calcola_media(a, b, c):
+    """
+    Calcola la media di tre numeri e restituisce un float.
+    """
+    somma = a + b + c
+    media = somma / 3
+    return media
+
+# --- Esempio di utilizzo ---
+
+# Definiamo i tre numeri
+num1 = 10
+num2 = 20
+num3 = 35
+
+# Chiamiamo la funzione
+risultato = calcola_media(num1, num2, num3)
+
+# Stampa del risultato
+print(f"La media è: {risultato}")
+print(f"Tipo di dato: {type(risultato)}")
