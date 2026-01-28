@@ -1,0 +1,8 @@
+def truncate_decimal(numero):
+    return int(numero)
+
+# Esempio di utilizzo per vedere che funziona
+print(truncate_decimal(5.9))
+
+def is_all_numbers(s):
+    return s.isdigit()
