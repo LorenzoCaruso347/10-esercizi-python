@@ -1,0 +1,20 @@
+def is_float_type(x):
+    """
+    Restituisce True se l'input x è specificamente di tipo float.
+    Restituisce False per int, str o qualsiasi altro tipo.
+    """
+    return isinstance(x, float)
+
+# --- Esempi di utilizzo ---
+
+# Caso 1: Float standard
+print(f"Input: 3.14  -> {is_float_type(3.14)}")  # Output: True
+
+# Caso 2: Float che sembra un intero (es. 5.0)
+print(f"Input: 5.0   -> {is_float_type(5.0)}")   # Output: True
+
+# Caso 3: Intero (questo è il caso critico che volevi evitare)
+print(f"Input: 5     -> {is_float_type(5)}")     # Output: False
+
+# Caso 4: Stringa
+print(f"Input: '1.5' -> {is_float_type('1.5')}") # Output: False
