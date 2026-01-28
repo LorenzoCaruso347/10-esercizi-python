@@ -1,0 +1,8 @@
+def is_integer_value(n):
+    # Se il resto della divisione per 1 è 0, allora è un intero
+    return n % 1 == 0
+
+# Test di verifica
+print(is_integer_value(5.0))  # True
+print(is_integer_value(5.1))  # False
+print(is_integer_value(5))    # True
