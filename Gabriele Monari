@@ -11,4 +11,4 @@ if __name__ == "__main__":
     print(f"10 è nel range? {check_range(10)}")  # True
     print(f"20 è nel range? {check_range(20)}")  # True
     print(f"9 è nel range?  {check_range(9)}")   # False
-    print(f"21 è nel range? {check_range(21)}")  # False
+    print(f"21 è nel range? {check_range(21)}")  # False 
