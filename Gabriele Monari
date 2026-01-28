@@ -1,0 +1,14 @@
+def check_range(n):
+    """
+    Restituisce True se n è compreso tra 10 e 20 inclusi.
+    Altrimenti restituisce False.
+    """
+    return 10 <= n <= 20
+
+# --- Test di verifica ---
+if __name__ == "__main__":
+    print(f"15 è nel range? {check_range(15)}")  # True
+    print(f"10 è nel range? {check_range(10)}")  # True
+    print(f"20 è nel range? {check_range(20)}")  # True
+    print(f"9 è nel range?  {check_range(9)}")   # False
+    print(f"21 è nel range? {check_range(21)}")  # False
