@@ -1,1 +1,9 @@
+def repeat_string(s, n):
+    return s * n
 
+# Usiamo l'emoji della stella
+voto = 5
+stelle = repeat_string("⭐", voto)
+
+print("Punteggio utente:")
+print(stelle)
